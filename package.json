@@ -1,0 +1,30 @@
+{
+  "name": "slider-demo",
+  "version": "1.0.0",
+  "description": "Simple markup demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp sass",
+    "my-watch": "gulp watch",
+    "browser-sync": "gulp browser-sync",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/polina1009/Slider-demo.git"
+  },
+  "keywords": [
+    "markup"
+  ],
+  "author": "Polina Martynova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/polina1009/Slider-demo/issues"
+  },
+  "homepage": "https://github.com/polina1009/Slider-demo#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}

@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Cambria';
+  src: url("../fonts/cambria/Cambria.eot");
+  src: url("../fonts/cambria/Cambria.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/cambria/Cambria.woff2") format("woff2");
+  src: url("../fonts/cambria/Cambria.woff") format("woff");
+  src: url("../fonts/cambria/Cambria.ttf") format("truetype");
+  src: url("../fonts/cambria/Cambria.svg#Cambria") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2044; }
+
+@font-face {
+  font-family: 'Neris-Black';
+  src: url("../fonts/neris/neris-black/Neris-Black.eot");
+  src: url("../fonts/neris/neris-black/Neris-Black.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/neris/neris-black/Neris-Black.woff2") format("woff2");
+  src: url("../fonts/neris/neris-black/Neris-Black.woff") format("woff");
+  src: url("../fonts/neris/neris-black/Neris-Black.ttf") format("truetype");
+  src: url("../fonts/neris/neris-black/Neris-Black.svg#Neris Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-00FE; }
+
+@font-face {
+  font-family: 'Neris-Light';
+  src: url("../fonts/neris/neris-light/Neris-Light.eot");
+  src: url("../fonts/neris/neris-light/Neris-Light.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/neris/neris-light/Neris-Light.woff2") format("woff2");
+  src: url("../fonts/neris/neris-light/Neris-Light.woff") format("woff");
+  src: url("../fonts/neris/neris-light/Neris-Light.ttf") format("truetype");
+  src: url("../fonts/neris/neris-light/Neris-Light.svg#Neris Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-00FE; }
+
+@font-face {
+  font-family: 'Neris-SemiBold';
+  src: url("../fonts/neris/neris-semibold/Neris-SemiBold.eot");
+  src: url("../fonts/neris/neris-semibold/Neris-SemiBold.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/neris/neris-semibold/Neris-SemiBold.woff2") format("woff2");
+  src: url("../fonts/neris/neris-semibold/Neris-SemiBold.woff") format("woff");
+  src: url("../fonts/neris/neris-semibold/Neris-SemiBold.ttf") format("truetype");
+  src: url("../fonts/neris/neris-semibold/Neris-SemiBold.svg#Neris SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-00FE; }
+
+body {
+  position: relative;
+  margin: 0 auto; }
+
+.top-content {
+  position: relative;
+  width: 100%; }
+
+.top-content {
+  height: 500px;
+  background-color: #f1f1f1; }
