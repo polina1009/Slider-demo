@@ -1,15 +1,152 @@
 @import "fonts"
 
+$title-text: #434149
+
 body
   position: relative
   margin: 0 auto
+  max-width: 1680px
 
 %common-style
   position: relative
   width: 100%
 
-.top-content
+.top-block
   @extend %common-style
-  height: 500px
   background-color: #f1f1f1
+  background-image: url("../img/Top-background.png")
+  background-position: bottom
+  background-repeat: no-repeat
 
+  .head-block
+    @extend %common-style
+
+    .head-block__title
+      @extend %common-style
+      text-align: center
+      padding: 5%
+
+      .head-block__title-text
+        text-transform: uppercase
+        font-family: Neris-Black, sans-serif
+        font-size: 53px
+        color: $title-text
+
+    .slider-block
+      @extend %common-style
+      list-style-type: none
+      vertical-align: text-top
+      text-align: center
+      white-space: nowrap
+
+      .slider-block__item
+        text-transform: uppercase
+        display: inline-block
+        padding: 3%
+        font-family: Neris-SemiBold,sans-serif
+        font-size: 21px
+        color: $title-text
+        cursor: pointer
+
+      .slider-block__item_active
+        border-bottom: 2px solid #ffc000
+        color: #ffc000
+
+  .main-cont-block
+    @extend %common-style
+    display: inline-flex
+    flex-direction: row
+    justify-content: space-around
+
+    .img-block
+      position: relative
+      display: inline-flex
+      justify-content: center
+      width: 35%
+      padding:
+        top: 5%
+        bottom: 2%
+      overflow: hidden
+
+      .img-block__img
+        position: absolute
+        height: 62%
+
+    .section-block
+      display: inline-flex
+      flex-direction: column
+      justify-content: space-around
+      width: 35%
+      margin-right: 5%
+
+      .section-block__item_border
+        border: 1px dotted $title-text
+        border-radius: 15px
+
+      .section-block__item
+        display: flex
+        flex-direction: column
+        padding: 2%
+
+        .section-block__item-title
+          display: inline-table
+          font-family: Neris-SemiBold, sans-serif
+          font-size: 18px
+          color: $title-text
+          margin-bottom: 20px
+
+        .section-block__item-title_color
+          color: #ffc000
+
+        .section-block__item-title_dotted
+          border-bottom: 1px dotted $title-text
+
+        .section-block__item-text
+          font-family: Neris-Light, sans-serif
+          font-size: 19px
+          color: $title-text
+
+.bottom-block
+  @extend %common-style
+
+  .bottom-blok__title
+    @extend %common-style
+    text-align: center
+
+    .bottom-blok__title-text
+      text-transform: uppercase
+      font-family: Neris-Black, sans-serif
+      font-size: 50px
+      color: $title-text
+
+
+//.top-content
+//  @extend %common-style
+//  background-color: #f1f1f1
+//
+//  .top-content__title
+//    @extend %common-style
+//    display: flex
+//    justify-content: center
+//
+//    .top-content__title__text
+//      text-transform: uppercase
+//      font-family: Neris-Black
+//      font-size: 50px
+//      color: $title-text
+//      padding: 50px
+//
+//  .top-content__article
+//    @extend %common-style
+//    display: inline-flex
+//    justify-content: space-around
+//
+//    .top-content__article__img-article
+//      width: 30%
+//      margin-right: 12%
+//
+//    .top-content__article__info
+//      width: 40%
+//      display: flex
+//      flex-direction: column
+//      justify-content: space-between
